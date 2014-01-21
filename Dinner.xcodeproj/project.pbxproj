@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		755EEB3E188E587D00D346F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EEB3D188E587D00D346F1 /* Foundation.framework */; };
+		755EEB40188E587D00D346F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EEB3F188E587D00D346F1 /* CoreGraphics.framework */; };
+		755EEB42188E587D00D346F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EEB41188E587D00D346F1 /* UIKit.framework */; };
+		755EEB48188E587D00D346F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB46188E587D00D346F1 /* InfoPlist.strings */; };
+		755EEB4A188E587D00D346F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 755EEB49188E587D00D346F1 /* main.m */; };
+		755EEB4E188E587D00D346F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 755EEB4D188E587D00D346F1 /* AppDelegate.m */; };
+		755EEB50188E587D00D346F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB4F188E587D00D346F1 /* Images.xcassets */; };
+		755EEB57188E587D00D346F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EEB56188E587D00D346F1 /* XCTest.framework */; };
+		755EEB58188E587D00D346F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EEB3D188E587D00D346F1 /* Foundation.framework */; };
+		755EEB59188E587D00D346F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EEB41188E587D00D346F1 /* UIKit.framework */; };
+		755EEB61188E587D00D346F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB5F188E587D00D346F1 /* InfoPlist.strings */; };
+		755EEB63188E587D00D346F1 /* DinnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 755EEB62188E587D00D346F1 /* DinnerTests.m */; };
+		755EEB6E188E5A0400D346F1 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755EEB6D188E5A0400D346F1 /* FoodViewController.m */; };
+		755EEB75188E5EA800D346F1 /* [奥特曼] 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB6F188E5EA800D346F1 /* [奥特曼] 2.png */; };
+		755EEB76188E5EA800D346F1 /* [奥特曼] 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB70188E5EA800D346F1 /* [奥特曼] 3.png */; };
+		755EEB77188E5EA800D346F1 /* [奥特曼].png in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB71188E5EA800D346F1 /* [奥特曼].png */; };
+		755EEB78188E5EA800D346F1 /* [奥特曼]@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB72188E5EA800D346F1 /* [奥特曼]@2x 2.png */; };
+		755EEB79188E5EA800D346F1 /* [奥特曼]@2x 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB73188E5EA800D346F1 /* [奥特曼]@2x 3.png */; };
+		755EEB7A188E5EA800D346F1 /* [奥特曼]@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB74188E5EA800D346F1 /* [奥特曼]@2x.png */; };
+		755EEB7C188E61F700D346F1 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 755EEB7B188E61F700D346F1 /* 1.jpg */; };
+		755EEB7F188E643B00D346F1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755EEB7E188E643B00D346F1 /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		755EEB5A188E587D00D346F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 755EEB32188E587D00D346F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755EEB39188E587D00D346F1;
+			remoteInfo = Dinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		755EEB3A188E587D00D346F1 /* Dinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755EEB3D188E587D00D346F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		755EEB3F188E587D00D346F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		755EEB41188E587D00D346F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		755EEB45188E587D00D346F1 /* Dinner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dinner-Info.plist"; sourceTree = "<group>"; };
+		755EEB47188E587D00D346F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		755EEB49188E587D00D346F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		755EEB4B188E587D00D346F1 /* Dinner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dinner-Prefix.pch"; sourceTree = "<group>"; };
+		755EEB4C188E587D00D346F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		755EEB4D188E587D00D346F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		755EEB4F188E587D00D346F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		755EEB55188E587D00D346F1 /* DinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		755EEB56188E587D00D346F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		755EEB5E188E587D00D346F1 /* DinnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinnerTests-Info.plist"; sourceTree = "<group>"; };
+		755EEB60188E587D00D346F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		755EEB62188E587D00D346F1 /* DinnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinnerTests.m; sourceTree = "<group>"; };
+		755EEB6C188E5A0400D346F1 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		755EEB6D188E5A0400D346F1 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		755EEB6F188E5EA800D346F1 /* [奥特曼] 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[奥特曼] 2.png"; sourceTree = "<group>"; };
+		755EEB70188E5EA800D346F1 /* [奥特曼] 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[奥特曼] 3.png"; sourceTree = "<group>"; };
+		755EEB71188E5EA800D346F1 /* [奥特曼].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[奥特曼].png"; sourceTree = "<group>"; };
+		755EEB72188E5EA800D346F1 /* [奥特曼]@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[奥特曼]@2x 2.png"; sourceTree = "<group>"; };
+		755EEB73188E5EA800D346F1 /* [奥特曼]@2x 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[奥特曼]@2x 3.png"; sourceTree = "<group>"; };
+		755EEB74188E5EA800D346F1 /* [奥特曼]@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[奥特曼]@2x.png"; sourceTree = "<group>"; };
+		755EEB7B188E61F700D346F1 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		755EEB7D188E643B00D346F1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		755EEB7E188E643B00D346F1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755EEB37188E587D00D346F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EEB40188E587D00D346F1 /* CoreGraphics.framework in Frameworks */,
+				755EEB42188E587D00D346F1 /* UIKit.framework in Frameworks */,
+				755EEB3E188E587D00D346F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EEB52188E587D00D346F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EEB57188E587D00D346F1 /* XCTest.framework in Frameworks */,
+				755EEB59188E587D00D346F1 /* UIKit.framework in Frameworks */,
+				755EEB58188E587D00D346F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		755EEB31188E587D00D346F1 = {
+			isa = PBXGroup;
+			children = (
+				755EEB7D188E643B00D346F1 /* HomeViewController.h */,
+				755EEB7E188E643B00D346F1 /* HomeViewController.m */,
+				755EEB6C188E5A0400D346F1 /* FoodViewController.h */,
+				755EEB6D188E5A0400D346F1 /* FoodViewController.m */,
+				755EEB80188E644000D346F1 /* Images */,
+				755EEB43188E587D00D346F1 /* Dinner */,
+				755EEB5C188E587D00D346F1 /* DinnerTests */,
+				755EEB3C188E587D00D346F1 /* Frameworks */,
+				755EEB3B188E587D00D346F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		755EEB3B188E587D00D346F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755EEB3A188E587D00D346F1 /* Dinner.app */,
+				755EEB55188E587D00D346F1 /* DinnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		755EEB3C188E587D00D346F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755EEB3D188E587D00D346F1 /* Foundation.framework */,
+				755EEB3F188E587D00D346F1 /* CoreGraphics.framework */,
+				755EEB41188E587D00D346F1 /* UIKit.framework */,
+				755EEB56188E587D00D346F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		755EEB43188E587D00D346F1 /* Dinner */ = {
+			isa = PBXGroup;
+			children = (
+				755EEB4C188E587D00D346F1 /* AppDelegate.h */,
+				755EEB4D188E587D00D346F1 /* AppDelegate.m */,
+				755EEB4F188E587D00D346F1 /* Images.xcassets */,
+				755EEB44188E587D00D346F1 /* Supporting Files */,
+			);
+			path = Dinner;
+			sourceTree = "<group>";
+		};
+		755EEB44188E587D00D346F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				755EEB45188E587D00D346F1 /* Dinner-Info.plist */,
+				755EEB46188E587D00D346F1 /* InfoPlist.strings */,
+				755EEB49188E587D00D346F1 /* main.m */,
+				755EEB4B188E587D00D346F1 /* Dinner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		755EEB5C188E587D00D346F1 /* DinnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				755EEB62188E587D00D346F1 /* DinnerTests.m */,
+				755EEB5D188E587D00D346F1 /* Supporting Files */,
+			);
+			path = DinnerTests;
+			sourceTree = "<group>";
+		};
+		755EEB5D188E587D00D346F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				755EEB5E188E587D00D346F1 /* DinnerTests-Info.plist */,
+				755EEB5F188E587D00D346F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		755EEB80188E644000D346F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				755EEB7B188E61F700D346F1 /* 1.jpg */,
+				755EEB6F188E5EA800D346F1 /* [奥特曼] 2.png */,
+				755EEB70188E5EA800D346F1 /* [奥特曼] 3.png */,
+				755EEB71188E5EA800D346F1 /* [奥特曼].png */,
+				755EEB72188E5EA800D346F1 /* [奥特曼]@2x 2.png */,
+				755EEB73188E5EA800D346F1 /* [奥特曼]@2x 3.png */,
+				755EEB74188E5EA800D346F1 /* [奥特曼]@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		755EEB39188E587D00D346F1 /* Dinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755EEB66188E587D00D346F1 /* Build configuration list for PBXNativeTarget "Dinner" */;
+			buildPhases = (
+				755EEB36188E587D00D346F1 /* Sources */,
+				755EEB37188E587D00D346F1 /* Frameworks */,
+				755EEB38188E587D00D346F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dinner;
+			productName = Dinner;
+			productReference = 755EEB3A188E587D00D346F1 /* Dinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		755EEB54188E587D00D346F1 /* DinnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755EEB69188E587D00D346F1 /* Build configuration list for PBXNativeTarget "DinnerTests" */;
+			buildPhases = (
+				755EEB51188E587D00D346F1 /* Sources */,
+				755EEB52188E587D00D346F1 /* Frameworks */,
+				755EEB53188E587D00D346F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				755EEB5B188E587D00D346F1 /* PBXTargetDependency */,
+			);
+			name = DinnerTests;
+			productName = DinnerTests;
+			productReference = 755EEB55188E587D00D346F1 /* DinnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		755EEB32188E587D00D346F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = loohcs;
+				TargetAttributes = {
+					755EEB54188E587D00D346F1 = {
+						TestTargetID = 755EEB39188E587D00D346F1;
+					};
+				};
+			};
+			buildConfigurationList = 755EEB35188E587D00D346F1 /* Build configuration list for PBXProject "Dinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 755EEB31188E587D00D346F1;
+			productRefGroup = 755EEB3B188E587D00D346F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755EEB39188E587D00D346F1 /* Dinner */,
+				755EEB54188E587D00D346F1 /* DinnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		755EEB38188E587D00D346F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EEB77188E5EA800D346F1 /* [奥特曼].png in Resources */,
+				755EEB48188E587D00D346F1 /* InfoPlist.strings in Resources */,
+				755EEB79188E5EA800D346F1 /* [奥特曼]@2x 3.png in Resources */,
+				755EEB7A188E5EA800D346F1 /* [奥特曼]@2x.png in Resources */,
+				755EEB50188E587D00D346F1 /* Images.xcassets in Resources */,
+				755EEB75188E5EA800D346F1 /* [奥特曼] 2.png in Resources */,
+				755EEB7C188E61F700D346F1 /* 1.jpg in Resources */,
+				755EEB76188E5EA800D346F1 /* [奥特曼] 3.png in Resources */,
+				755EEB78188E5EA800D346F1 /* [奥特曼]@2x 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EEB53188E587D00D346F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EEB61188E587D00D346F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		755EEB36188E587D00D346F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EEB6E188E5A0400D346F1 /* FoodViewController.m in Sources */,
+				755EEB4E188E587D00D346F1 /* AppDelegate.m in Sources */,
+				755EEB4A188E587D00D346F1 /* main.m in Sources */,
+				755EEB7F188E643B00D346F1 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EEB51188E587D00D346F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EEB63188E587D00D346F1 /* DinnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		755EEB5B188E587D00D346F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 755EEB39188E587D00D346F1 /* Dinner */;
+			targetProxy = 755EEB5A188E587D00D346F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		755EEB46188E587D00D346F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755EEB47188E587D00D346F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		755EEB5F188E587D00D346F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755EEB60188E587D00D346F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		755EEB64188E587D00D346F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		755EEB65188E587D00D346F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		755EEB67188E587D00D346F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dinner/Dinner-Prefix.pch";
+				INFOPLIST_FILE = "Dinner/Dinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		755EEB68188E587D00D346F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dinner/Dinner-Prefix.pch";
+				INFOPLIST_FILE = "Dinner/Dinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		755EEB6A188E587D00D346F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dinner.app/Dinner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dinner/Dinner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DinnerTests/DinnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		755EEB6B188E587D00D346F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dinner.app/Dinner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dinner/Dinner-Prefix.pch";
+				INFOPLIST_FILE = "DinnerTests/DinnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		755EEB35188E587D00D346F1 /* Build configuration list for PBXProject "Dinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755EEB64188E587D00D346F1 /* Debug */,
+				755EEB65188E587D00D346F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755EEB66188E587D00D346F1 /* Build configuration list for PBXNativeTarget "Dinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755EEB67188E587D00D346F1 /* Debug */,
+				755EEB68188E587D00D346F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		755EEB69188E587D00D346F1 /* Build configuration list for PBXNativeTarget "DinnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755EEB6A188E587D00D346F1 /* Debug */,
+				755EEB6B188E587D00D346F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 755EEB32188E587D00D346F1 /* Project object */;
+}
